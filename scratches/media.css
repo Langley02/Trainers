@@ -1,0 +1,24 @@
+@media only screen and (max-width: 767px) {
+    header {
+        position: relative;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .logo {
+        max-width: 130px;
+        float: none;
+    }
+
+    .btn {
+        float: none;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    header form {
+        float: none;
+        width: 100%;
+    }
+}
+

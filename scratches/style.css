@@ -1,0 +1,333 @@
+@font-face {
+    font-family: 'Metropolis';
+    src: url('../fonts/Metropolis-Medium.eot');
+    src: url('../fonts/Metropolis-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Medium.woff2') format('woff2'),
+    url('../fonts/Metropolis-Medium.woff') format('woff'),
+    url('../fonts/Metropolis-Medium.ttf') format('truetype'),
+    url('../fonts/Metropolis-Medium.svg#Metropolis-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../fonts/BebasNeueRegular.eot');
+    src: url('../fonts/BebasNeueRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+    url('../fonts/BebasNeueRegular.woff') format('woff'),
+    url('../fonts/BebasNeueRegular.ttf') format('truetype'),
+    url('../fonts/BebasNeueRegular.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Metropolis-Light';
+    src: url('../fonts/Metropolis-Light.eot');
+    src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Metropolis-Light.woff2') format('woff2'),
+    url('../fonts/Metropolis-Light.woff') format('woff'),
+    url('../fonts/Metropolis-Light.ttf') format('truetype'),
+    url('../fonts/Metropolis-Light.svg#Metropolis-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: inherit;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 1.5625rem 0 0.75rem;
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+header .logo {
+    display: inline-block;
+    max-width: 351px;
+    float: left;
+}
+
+header .logo img {
+    width: 100%;
+}
+
+header form {
+    background-color: #ebebeb;
+    width: 208px;
+    height: 42px;
+    display: inline-block;
+    border-radius: 4px;
+    vertical-align: top;
+    margin-top: 9px;
+    float: right;
+}
+
+header form input {
+    width: 70%;
+    border: none;
+    background: transparent;
+    line-height: 42px;
+    display: inline-block;
+    vertical-align: top;
+    color: #959595;
+    font-size: 15px;
+    padding-left: 16px;
+    box-sizing: border-box;
+    font-family: 'Metropolis', serif;
+
+}
+
+header form button {
+    display: inline-block;
+    width: 27%;
+    height: 42px;
+    border: none;
+    background-color: transparent;
+    vertical-align: top;
+}
+
+header .btn {
+    min-width: 169px;
+    line-height: 42px;
+    border-radius: 3px;
+    background-color: #252525;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin-left: 24px;
+    float: right;
+    margin-top: 9px;
+    font-family: 'Metropolis';
+    font-size: 15px;
+}
+
+header .btn i {
+    font-size: 18px;
+    margin-right: 14px;
+}
+
+header .btn.grey {
+    background-color: #464646;
+}
+
+header .btn.red {
+    background-color: #fa090a;
+}
+
+header .btn:before {
+
+}
+
+header .btn.grey:before {
+
+}
+
+.container:after, header nav ul:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.border {
+    border-bottom: solid 1px #464646;
+    padding-bottom: 21px;
+    margin-bottom: 21px;
+}
+
+header nav ul {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li {
+    float: left;
+    margin-right: 15px;
+    border-bottom: solid 4px transparent;
+}
+
+.sec_icon {
+    text-decoration: none;
+    color: white;
+    font-family: 'Bebas Neue';
+    font-size: 25px;
+}
+
+.fa-search {
+    color: red;
+}
+
+header nav ul li:hover a, header nav ul li.active a {
+    border-bottom: solid 4px #ff0000;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 6px;
+}
+
+header nav ul li a:after {
+
+}
+
+.soc_icon {
+    float: right;
+    min-width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: red;
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.fab {
+    color: black;
+}
+
+
+.bg_img {
+    position: relative;
+    top: -210px;
+    z-index: -1;
+}
+
+.bg_img img {
+    width: 100%;
+    display: block;
+}
+
+.bg_img h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    line-height: 50px;
+    font-family: 'Bebas Neue';
+    width: 100%;
+    position: absolute;
+    bottom: 21px;
+}
+
+.bg_img h1:after {
+    content: "";
+    width: 100%;
+    max-width: 1170px;
+    height: 3px;
+    display: block;
+    background-color: #ff0000;
+    margin: auto;
+    margin-top: 34px;
+}
+
+footer {
+    height: 552px;
+    width: 100%;
+    background-color: #010006;
+    border-top: solid #88888b;
+}
+
+.subs {
+    height: 250px;
+    max-width: 1220px;
+    margin: auto;
+
+}
+
+.subs h2 {
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    font-family: 'Metropolis-Light';
+    padding-top: 78px;
+    line-height: 25px;
+}
+
+footer form input {
+    width: 390px;
+    border: none;
+    border-radius: 3px;
+    line-height: 42px;
+    display: inline-block;
+    vertical-align: bottom;
+    color: #959595;
+    font-size: 17px;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-family: 'Metropolis-Light';
+    margin-left: 244px;
+    float: left;
+    margin-top: 38px;
+}
+
+.btn.bot {
+    width: 310px;
+    line-height: 51px;
+    border-radius: 3px;
+    background-color: red;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Metropolis';
+    font-size: 20px;
+    float: right;
+    margin-right: 243px;
+    margin-top: 32px;
+}
+
+.backg_info {
+    height: 238px;
+    width: 100%;
+    background-color: #252525;
+    margin: auto;
+    border-top: solid #464647;
+    border-bottom: solid #464647;
+
+}
+
+.container_info {
+    height: 238px;
+    width: 1220px;
+    margin: auto;
+}
+
+.logo_soc {
+    height: 238px;
+    width: 273px;
+    float: left;
+}
+
+.logo_soc img {
+    float: left;
+    margin: 51px 0 44px 26px;
+}
+
+.info {
+    height: 238px;
+    width: 947px;
+    float: right;
+}
+
+.soc_icon2 {
+    float: left;
+    min-width: 42px;
+    line-height: 42px;
+    font-size: 28px;
+    text-align: center;
+    background-color: red;
+    display: inline-block;
+    margin-left: 23px;
+}
+.soc_icon2:first-of-type{
+    margin-left: 28px;
+}
