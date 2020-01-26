@@ -232,7 +232,7 @@ header nav ul li a:after {
 
 footer {
     height: 552px;
-    width: 100%;
+    max-width: 100%;
     background-color: #010006;
     border-top: solid #88888b;
 }
@@ -270,7 +270,7 @@ footer form input {
     margin-top: 38px;
 }
 
-.btn.bot {
+.btn_bot {
     width: 310px;
     line-height: 51px;
     border-radius: 3px;
@@ -289,7 +289,7 @@ footer form input {
 
 .backg_info {
     height: 238px;
-    width: 100%;
+    max-width: 100%;
     background-color: #252525;
     margin: auto;
     border-top: solid #464647;
@@ -299,13 +299,13 @@ footer form input {
 
 .container_info {
     height: 238px;
-    width: 1220px;
+    max-width: 1220px;
     margin: auto;
 }
 
 .logo_soc {
     height: 238px;
-    width: 273px;
+    max-width: 273px;
     float: left;
 }
 
@@ -316,7 +316,7 @@ footer form input {
 
 .info {
     height: 238px;
-    width: 947px;
+    max-width: 947px;
     float: right;
 }
 

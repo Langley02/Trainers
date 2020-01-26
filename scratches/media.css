@@ -1,4 +1,4 @@
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     header {
         position: relative;
         padding: 0 15px;
@@ -12,13 +12,70 @@
 
     .btn {
         float: none;
-        width: 100%;
+        width: 50px;
         margin-left: 0px;
     }
 
     header form {
+        float: left;
+        min-width: 500px;
+        position: absolute;
+        top: 50px;
+        left: 60px;
+    }
+
+    header nav ul li {
+        float: none;
+    }
+
+    .soc_icon {
+
+    }
+
+    footer form input {
+        float: left;
+        width: 250px;
+        margin: 0;
+
+    }
+
+    .btn_bot {
+        float: right;
+        width: 250px;
+        margin: auto;
+    }
+
+    .logo_soc {
+        display: none;
+    }
+
+    .info {
         float: none;
         width: 100%;
     }
-}
 
+    footer nav ul {
+        float: left;
+        max-width: 100%;
+        margin-left: 35px;
+        margin-right: 20px;
+    }
+
+    footer nav ul:nth-child(2) {
+        margin-right: 20px;
+
+    }
+
+    footer nav ul:nth-child(3) {
+        margin-right: 20px;
+    }
+
+    footer nav ul:last-of-type {
+        margin-right: 20px;
+    }
+
+    footer nav {
+        max-width: 100%;
+    }
+
+}
